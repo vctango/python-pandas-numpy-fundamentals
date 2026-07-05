@@ -1,5 +1,7 @@
 # Parses retirement age information from HTML tables using Pandas and transforms the data into a structured DataFrame for analysis.
 
+import pandas as pd
+
 retirement_html = """
 <table>
 <tr>
